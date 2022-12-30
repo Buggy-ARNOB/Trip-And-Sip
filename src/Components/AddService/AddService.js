@@ -52,7 +52,7 @@ const AddService = () => {
                 <br />
 
 
-                <button type='submit'>Add Service</button>
+                <button className='btn btn-primary' type='submit'>Add Service</button>
 
             </form>
         </div>
