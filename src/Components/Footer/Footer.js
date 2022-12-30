@@ -6,7 +6,7 @@ const Footer = () => {
             <>
                 All Right Reserved || Copyright Restricted
             </>
-            <br />
+            <hr className='w-75 mx-auto' />
             <>
                 Project For Tools Assignment 5th Sem Final
             </>

@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import './Home.css'
 function Home() {
     return (
-        <Carousel className='mt-5'>
+        <Carousel className='mt-3'>
             <Carousel.Item>
                 <Carousel.Caption>
                     <h3>First slide label</h3>
@@ -10,7 +10,7 @@ function Home() {
                 </Carousel.Caption>
                 <img
                     className="d-block w-100 carImg"
-                    src="https://asansol.org/wp-content/uploads/2021/01/best-hillstation-to-near-as.gif"
+                    src="https://www.andbeyond.com/wp-content/uploads/sites/5/machu-picchu-in-south-america.jpg"
                     alt="First slide"
                 />
             </Carousel.Item>
