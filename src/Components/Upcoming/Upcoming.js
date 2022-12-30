@@ -10,9 +10,11 @@ const Upcoming = () => {
                 setUpcommings(data)
             })
     }, [])
-    console.log(upcommings);
+    // console.log(upcommings);
+
+
     return (
-        <div>
+        <div className='container'>
             <h3 className='App mt-5 pt-2 fw-bold'>Upcoming Packages</h3>
 
             <div className='row row-cols-3 App parentGrid mx-auto'>

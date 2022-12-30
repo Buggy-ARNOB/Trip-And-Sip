@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import './Header.css'
 function Header() {
@@ -17,6 +16,7 @@ function Header() {
                         <Link className='text-decoration-none px-2 text-dark fw-semibold' to='/'>Home</Link>
                         <Link className='text-decoration-none px-2 text-dark fw-semibold' to='/banner'>Banner</Link>
                         <Link className='text-decoration-none px-2 text-dark fw-semibold' to='/service'>Service</Link>
+                        <Link className='text-decoration-none px-2 text-dark fw-semibold' to='/addService'>Add Service</Link>
                         <Link className='text-decoration-none px-2 text-dark fw-semibold' to='/contactUs'>Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>

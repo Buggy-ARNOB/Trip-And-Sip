@@ -8,9 +8,8 @@ const HomePage = () => {
     return (
         <div>
             <Home></Home>
-            <Upcoming></Upcoming>
             <Service></Service>
-            <Contact></Contact>
+            <Upcoming></Upcoming>
         </div>
     );
 };
