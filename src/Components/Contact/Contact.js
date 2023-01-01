@@ -6,8 +6,7 @@ const Contact = () => {
             <h2 className='fw-semibold my-4'><u>Contact Us</u></h2>
             <img className='brandingLogo' src="https://tripandsip.com/wp-content/uploads/2019/12/Logo-Draft-scaled.png" alt="" />
             <h4 className='fw-semibold my-2'>Company:Trip & Sip</h4>
-            <h5 className='fw-semibold my-2'><span>Hotline:</span>
-                <span>0000000</span></h5>
+            <h5 className='fw-semibold my-2'>Hotline:    +8809765432345</h5>
         </div>
     );
 };

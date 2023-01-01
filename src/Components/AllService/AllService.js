@@ -5,8 +5,8 @@ import Service from '../Service/Service';
 const AllService = () => {
     return (
         <div>
-            <AddService></AddService>
             <Service></Service>
+            <AddService></AddService>
         </div>
     );
 };

@@ -2,11 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import './Home.css'
 function Home() {
     return (
-        <Carousel className='mt-3'>
+        <Carousel className='mt-3 container'>
             <Carousel.Item>
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Machu Pichu</h3>
+                    <p>Join us & fell the Incan citadel set high in the Andes Mountains in Peru.</p>
                 </Carousel.Caption>
                 <img
                     className="d-block w-100 carImg"
@@ -17,8 +17,8 @@ function Home() {
 
             <Carousel.Item>
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Iifel Tower</h3>
+                    <p>Experience the vibe of Love in the city of Love</p>
                 </Carousel.Caption>
 
                 <img
@@ -29,8 +29,8 @@ function Home() {
             </Carousel.Item>
             <Carousel.Item>
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>The Great Wall of China</h3>
+                    <p>Visit the great wall of china with us....</p>
                 </Carousel.Caption>
 
                 <img
