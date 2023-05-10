@@ -35,7 +35,7 @@ export const routes = createBrowserRouter([
             {
                 path: 'update/:id',
                 element: <Update></Update>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://trip-sip-server.vercel.app/services/${params.id}`)
             }
 
 

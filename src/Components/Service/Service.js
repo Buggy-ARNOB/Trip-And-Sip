@@ -6,7 +6,7 @@ const Service = () => {
     const [remainingServices, setRemainingServices] = useState();
     //For Showing All Available Service
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://trip-sip-server.vercel.app/services')
             .then(res => res.json())
             .then(data => {
                 setRemainingServices(data)
@@ -17,7 +17,7 @@ const Service = () => {
         const agree = window.confirm(`Are you want to delete ${service.name}?`)
 
         if (agree) {
-            fetch(`http://localhost:5000/services/${service._id}`, {
+            fetch(`https://trip-sip-server.vercel.app/services/${service._id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

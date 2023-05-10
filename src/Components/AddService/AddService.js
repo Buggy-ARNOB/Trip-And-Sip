@@ -9,7 +9,7 @@ const AddService = () => {
         console.log(serviceData)
         event.target.reset();
 
-        fetch("http://localhost:5000/services", {
+        fetch("https://trip-sip-server.vercel.app/services", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

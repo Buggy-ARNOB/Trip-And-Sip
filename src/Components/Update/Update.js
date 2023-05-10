@@ -12,7 +12,7 @@ const Update = () => {
         event.preventDefault();
         console.log(user);
 
-        fetch(`http://localhost:5000/services/${_id}`, {
+        fetch(`https://trip-sip-server.vercel.app/services/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

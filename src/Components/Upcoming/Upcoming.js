@@ -4,7 +4,7 @@ const Upcoming = () => {
     const [upcommings, setUpcommings] = useState()
 
     useEffect(() => {
-        fetch('http://localhost:5000/upcomming')
+        fetch('https://trip-sip-server.vercel.app/upcomming')
             .then(res => res.json())
             .then(data => {
                 setUpcommings(data)
