@@ -4,7 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 const Update = () => {
     const selectedService = useLoaderData();
 
-    const { title, _id, imageLink, price } = selectedService;
+    const { title, _id } = selectedService;
 
     const [user, setUser] = useState(selectedService)
 
